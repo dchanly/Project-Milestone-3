@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Concepts - Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">WebDev Basics</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="keyconcepts.html" class="active">Key Concepts</a></li>
+                <li><a href="htmlbasics.html">HTML Basics</a></li>
+                <li><a href="cssbasics.html">CSS Basics</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <header class="page-header">
+            <h1>Key Concepts in Web Development</h1>
+            <p class="subtitle">Essential principles every web developer should know</p>
+        </header>
+
+        <section>
+            <h2>The Three Pillars of Web Development</h2>
+            <p>Modern web development is built on three core technologies that work together to create functional and attractive websites. Understanding how these technologies interact is fundamental to becoming a proficient web developer.</p>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Technology</th>
+                            <th>Purpose</th>
+                            <th>Key Features</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Structure and Content</td>
+                            <td>Elements, attributes, semantic markup</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Styling and Layout</td>
+                            <td>Selectors, properties, responsive design</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Interactivity and Behavior</td>
+                            <td>Functions, events, DOM manipulation</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Responsive Web Design</h2>
+            <p>Responsive web design is an approach to web development that ensures websites work well on devices of all sizes, from smartphones to desktop computers. This is achieved through flexible layouts, images, and CSS media queries.</p>
+            
+            <h3>Core Principles of Responsive Design</h3>
+            <ul>
+                <li><strong>Fluid Grids:</strong> Use relative units like percentages instead of fixed pixel values to create flexible layouts that adapt to screen size.</li>
+                <li><strong>Flexible Images:</strong> Images should scale appropriately within their containers using CSS properties like max-width.</li>
+                <li><strong>Media Queries:</strong> CSS rules that apply different styles based on device characteristics like screen width.</li>
+                <li><strong>Mobile-First Approach:</strong> Design for mobile devices first, then enhance for larger screens.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Semantic HTML</h2>
+            <p>Semantic HTML means using HTML elements that clearly describe their meaning and purpose. This improves accessibility, SEO, and code maintainability.</p>
+            
+            <h3>Examples of Semantic Elements</h3>
+            <div class="content-grid">
+                <div class="feature-card">
+                    <h4>&lt;header&gt;</h4>
+                    <p>Represents introductory content or navigation links</p>
+                </div>
+                <div class="feature-card">
+                    <h4>&lt;nav&gt;</h4>
+                    <p>Contains navigation links for the website</p>
+                </div>
+                <div class="feature-card">
+                    <h4>&lt;main&gt;</h4>
+                    <p>Represents the main content of the page</p>
+                </div>
+                <div class="feature-card">
+                    <h4>&lt;article&gt;</h4>
+                    <p>Contains independent, self-contained content</p>
+                </div>
+                <div class="feature-card">
+                    <h4>&lt;section&gt;</h4>
+                    <p>Groups related content together</p>
+                </div>
+                <div class="feature-card">
+                    <h4>&lt;footer&gt;</h4>
+                    <p>Contains footer information for the page</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Web Accessibility</h2>
+            <p>Web accessibility ensures that websites are usable by everyone, including people with disabilities. Following accessibility best practices makes the web more inclusive.</p>
+            
+            <h3>Key Accessibility Principles</h3>
+            <ol>
+                <li><strong>Perceivable:</strong> Information must be presentable to users in ways they can perceive (text alternatives for images, captions for videos).</li>
+                <li><strong>Operable:</strong> User interface components must be operable (keyboard navigation, sufficient time to read content).</li>
+                <li><strong>Understandable:</strong> Information and interface operation must be understandable (readable text, predictable functionality).</li>
+                <li><strong>Robust:</strong> Content must work with current and future technologies (valid HTML, compatibility with assistive technologies).</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>The Box Model</h2>
+            <p>The CSS box model is a fundamental concept that describes how elements are rendered on a webpage. Every element is treated as a rectangular box with four components:</p>
+            
+            <ul>
+                <li><strong>Content:</strong> The actual content of the element (text, images, etc.)</li>
+                <li><strong>Padding:</strong> Space between the content and the border</li>
+                <li><strong>Border:</strong> A line that surrounds the padding and content</li>
+                <li><strong>Margin:</strong> Space outside the border, separating the element from others</li>
+            </ul>
+            
+            <p>Understanding the box model is essential for creating precise layouts and controlling spacing on web pages.</p>
+        </section>
+
+        <section>
+            <h2>Version Control with Git</h2>
+            <p>Version control is a system that tracks changes to files over time. Git is the most popular version control system used in web development.</p>
+            
+            <h3>Benefits of Version Control</h3>
+            <ul>
+                <li>Track all changes made to your code</li>
+                <li>Collaborate with other developers effectively</li>
+                <li>Revert to previous versions if something breaks</li>
+                <li>Work on features in separate branches</li>
+                <li>Maintain a complete history of your project</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>&copy; 2025 Web Development Basics | Dawson Chanlyvong | IT 3203 - Kennesaw State University</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
